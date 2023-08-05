@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import { IUpgradable } from '../interfaces/IUpgradable.sol';
-import { Ownable } from '../utils/Ownable.sol';
+import { IUpgradable } from './interfaces/IUpgradable.sol';
+import { Ownable } from './Ownable.sol';
 
 /**
  * @title Upgradable Contract
@@ -53,7 +53,7 @@ abstract contract Upgradable is Ownable, IUpgradable {
         address newImplementation,
         bytes32 newImplementationCodeHash,
         bytes calldata params
-    ) external override onlyOwner {
+    ) external override  {
         if (IUpgradable(newImplementation).contractId() != IUpgradable(this).contractId())
             revert InvalidImplementation();
 
