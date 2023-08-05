@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import { IOwnable } from '../interfaces/IOwnable.sol';
+import { IOwnable } from './interfaces/IOwnable.sol';
 
 /**
  * @title Ownable
