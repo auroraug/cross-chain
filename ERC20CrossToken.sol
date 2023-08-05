@@ -31,7 +31,7 @@ contract ERC20CrossChain is AxelarExecutable, ERC20, Upgradable, IERC20CrossChai
 
     function _setup(bytes calldata params) internal override {
         (string memory name_, string memory symbol_) = abi.decode(params, (string, string));
-        // if (bytes(name).length != 0) revert AlreadyInitialized();
+        if (bytes(name).length != 0) revert AlreadyInitialized();
         name = name_;
         symbol = symbol_;
     }
@@ -50,8 +50,9 @@ contract ERC20CrossChain is AxelarExecutable, ERC20, Upgradable, IERC20CrossChai
 
         
         _burn(msg.sender, amount);
-        bytes memory payload = abi.encode(destinationAddress, amount);
-        string memory stringAddress = address(this).toString();
+        bytes memory payload = abi.encode(msg.sender, amount);
+        // bytes memory payload = abi.encode(destinationAddress, amount);
+        string memory stringAddress = destinationAddress.toString();
         gasService.payNativeGasForContractCall{ value: msg.value }(
             address(this),
             destinationChain,
@@ -67,10 +68,10 @@ contract ERC20CrossChain is AxelarExecutable, ERC20, Upgradable, IERC20CrossChai
         string calldata sourceAddress,
         bytes calldata payload
     ) internal override {
-        if (sourceAddress.toAddress() != address(this)) {
-            emit FalseSender(sourceAddress, sourceAddress);
-            return;
-        }
+        // if (sourceAddress.toAddress() != address(this)) {
+        //     emit FalseSender(sourceAddress, sourceAddress);
+        //     return;
+        // }
         (address to, uint256 amount) = abi.decode(payload, (address, uint256));
         _mint(to, amount);
     }
