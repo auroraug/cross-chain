@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.9;
 
-import { IERC20 } from './IERC20.sol';
+import { IERC20 } from './interfaces/IERC20.sol';
 
 /**
  * @dev Implementation of the {IERC20} interface.
