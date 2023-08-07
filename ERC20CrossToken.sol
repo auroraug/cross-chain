@@ -68,7 +68,7 @@ contract ERC20CrossChain is AxelarExecutable, ERC20, Upgradable, IERC20CrossChai
         string calldata sourceAddress,
         bytes calldata payload
     ) internal override {
-        // if (sourceAddress.toAddress() != address(this)) {
+        // if (sourceAddress.toAddress() == address(this)) {
         //     emit FalseSender(sourceAddress, sourceAddress);
         //     return;
         // }
