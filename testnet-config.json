@@ -1,0 +1,1454 @@
+{
+  "acrechain": {
+    "id": "acre",
+    "chainSymbol": "Acrechain",
+    "chainName": "Acrechain",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "acre",
+      "testnet": "acre",
+      "mainnet": "acre"
+    },
+    "rpc": [
+      "https://rpc-testnet2-acre.synergynodes.com",
+      "https://rpc.testnet.acrescan.com",
+      "https://rpc-t.acre.nodestake.top"
+    ],
+    "lcd": [
+      "https://lcd-testnet2-acre.synergynodes.com",
+      "https://rest.testnet.acrescan.com",
+      "https://api-t.acre.nodestake.top"
+    ],
+    "grpc": [
+      "https://grpc-t.acre.nodestake.top"
+    ],
+    "addressPrefix": "acre",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-0",
+    "depositService": ""
+  },
+  "aura": {
+    "id": "aura",
+    "chainSymbol": "Aura",
+    "chainName": "Aura",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "aura",
+      "testnet": "aura",
+      "mainnet": "aura"
+    },
+    "rpc": [
+      "https://aura-testnet.rpc.kjnodes.com",
+      "https://rpc-aura-testnet.mms.team",
+      "https://rpc-euphoria.aura.palamar.io",
+      "https://rpc.euphoria.aura.network"
+    ],
+    "lcd": [
+      "https://aura-testnet.api.kjnodes.com",
+      "https://api-aura-testnet.mms.team",
+      "https://api-euphoria.aura.palamar.io",
+      "https://lcd.euphoria.aura.network"
+    ],
+    "grpc": [],
+    "addressPrefix": "aura",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-5",
+    "depositService": ""
+  },
+  "avalanche": {
+    "id": "avalanche",
+    "chainSymbol": "Avalanche",
+    "chainName": "Avalanche",
+    "gasToken": "avax",
+    "nativeAsset": [
+      "wavax-wei"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3,
+    "chainIdentifier": {
+      "devnet": "avalanche",
+      "testnet": "avalanche",
+      "mainnet": "avalanche"
+    },
+    "rpc": [
+      "https://api.avax-test.network/ext/bc/C/rpc"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "axelar": {
+    "id": "axelarnet",
+    "chainSymbol": "Axelar",
+    "chainName": "Axelar",
+    "gasToken": "",
+    "nativeAsset": [
+      "uaxl"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "axelarnet",
+      "testnet": "axelarnet",
+      "mainnet": "axelarnet"
+    },
+    "rpc": [
+      "https://tm.axelar-testnet.lava.build/lava-referer-0c5387c5-24d8-4898-9ec1-be8018fa569d/"
+    ],
+    "lcd": [
+      "https://rest.axelar-testnet.lava.build/lava-referer-0c5387c5-24d8-4898-9ec1-be8018fa569d/"
+    ],
+    "grpc": [],
+    "addressPrefix": "axelar",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": null,
+    "depositService": ""
+  },
+  "binance": {
+    "id": "binance",
+    "chainSymbol": "Binance",
+    "chainName": "Binance",
+    "gasToken": "bnb",
+    "nativeAsset": [
+      "wbnb-wei"
+    ],
+    "estimatedWaitTime": 2,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 17,
+    "chainIdentifier": {
+      "devnet": "binance",
+      "testnet": "binance",
+      "mainnet": "binance"
+    },
+    "rpc": [
+      "https://data-seed-prebsc-1-s1.binance.org:8545"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "burnt": {
+    "id": "burnt-2",
+    "chainSymbol": "Burnt",
+    "chainName": "Burnt",
+    "gasToken": "",
+    "nativeAsset": [
+      "uxion"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "burnt-2",
+      "testnet": "burnt-2",
+      "mainnet": "burnt-2"
+    },
+    "rpc": [
+      "https://rpc.xion-testnet-1.burnt.com:443"
+    ],
+    "lcd": [
+      "https://api.xion-testnet-1.burnt.com"
+    ],
+    "grpc": [],
+    "addressPrefix": "xion",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-5",
+    "depositService": ""
+  },
+  "celestia": {
+    "id": "celestia",
+    "chainSymbol": "Celestia",
+    "chainName": "Celestia",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "celestia",
+      "testnet": "celestia",
+      "mainnet": "celestia"
+    },
+    "rpc": [
+      "https://rpc-celestia-mocha.architectnodes.com"
+    ],
+    "lcd": [
+      "https://rest-celestia-mocha.architectnodes.com"
+    ],
+    "grpc": [],
+    "addressPrefix": "celestia",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-12",
+    "depositService": ""
+  },
+  "centrifuge": {
+    "id": "centrifuge-2",
+    "chainSymbol": "Centrifuge",
+    "chainName": "Centrifuge",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3,
+    "chainIdentifier": {
+      "devnet": "centrifuge-2",
+      "testnet": "centrifuge-2",
+      "mainnet": "centrifuge-2"
+    },
+    "rpc": [
+      "https://node-7118620155331796992.gx.onfinality.io/jsonrpc?apikey=00538f2d-6297-44e3-8812-4b9d579524b2"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "chain4energy": {
+    "id": "chain4energy",
+    "chainSymbol": "Chain4Energy",
+    "chainName": "Chain4Energy",
+    "gasToken": "",
+    "nativeAsset": [
+      "uc4e"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "chain4energy",
+      "testnet": "chain4energy",
+      "mainnet": "chain4energy"
+    },
+    "rpc": [
+      "https://rpc-testnet.c4e.io"
+    ],
+    "lcd": [
+      "https://lcd-testnet.c4e.io"
+    ],
+    "grpc": [
+      "https://grpc-testnet.c4e.io:8443"
+    ],
+    "addressPrefix": "c4e",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-3",
+    "depositService": ""
+  },
+  "dymension": {
+    "id": "dymension",
+    "chainSymbol": "Dymension",
+    "chainName": "Dymension",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "dymension",
+      "testnet": "dymension",
+      "mainnet": "dymension"
+    },
+    "rpc": [
+      "https://dymension-testnet-rpc.polkachu.com/",
+      "https://dymension-rpc-blumbus.ibs.team/",
+      "https://blumbus.rpc.silknodes.io"
+    ],
+    "lcd": [
+      "https://dymension-api-blumbus.ibs.team/",
+      "https://blumbus.api.silknodes.io",
+      "https://dymension-testnet-api.polkachu.com/"
+    ],
+    "grpc": [],
+    "addressPrefix": "dym",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-0",
+    "depositService": ""
+  },
+  "elys": {
+    "id": "elys",
+    "chainSymbol": "Elys",
+    "chainName": "Elys",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "elys",
+      "testnet": "elys",
+      "mainnet": "elys"
+    },
+    "rpc": [
+      "https://elys-testnet-rpc.polkachu.com/",
+      "https://rpc.testnet.elys.network"
+    ],
+    "lcd": [
+      "https://elys-testnet-api.polkachu.com/",
+      "https://api.testnet.elys.network"
+    ],
+    "grpc": [],
+    "addressPrefix": "elys",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-15",
+    "depositService": ""
+  },
+  "ethereum": {
+    "id": "ethereum-2",
+    "chainSymbol": "Ethereum",
+    "chainName": "Ethereum",
+    "gasToken": "eth",
+    "nativeAsset": [
+      "eth-wei"
+    ],
+    "estimatedWaitTime": 20,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 96,
+    "chainIdentifier": {
+      "devnet": "ethereum-2",
+      "testnet": "ethereum-2",
+      "mainnet": "ethereum-2"
+    },
+    "rpc": [
+      "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "ethereum sepolia": {
+    "id": "ethereum-sepolia",
+    "chainSymbol": "Ethereum Sepolia",
+    "chainName": "Ethereum Sepolia",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 20,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 100,
+    "chainIdentifier": {
+      "devnet": "ethereum-sepolia",
+      "testnet": "ethereum-sepolia",
+      "mainnet": "ethereum-sepolia"
+    },
+    "rpc": [
+      "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "evmos": {
+    "id": "evmos",
+    "chainSymbol": "Evmos",
+    "chainName": "Evmos",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "evmos",
+      "testnet": "evmos",
+      "mainnet": "evmos"
+    },
+    "rpc": [
+      "https://evmos-testnet-rpc.qubelabs.io",
+      "https://evmos-testnet-rpc.polkachu.com:443",
+      "https://rpc-t.evmos.nodestake.top",
+      "https://evmos.test.rpc.coldyvalidator.net"
+    ],
+    "lcd": [
+      "https://evmos-testnet-lcd.qubelabs.io",
+      "https://evmos-testnet-api.polkachu.com:443",
+      "https://api-t.evmos.nodestake.top",
+      "https://evmos.test.api.coldyvalidator.net"
+    ],
+    "grpc": [
+      "grpc.bd.evmos.org:9090",
+      "https://evmos.test.grpc.coldyvalidator.net"
+    ],
+    "addressPrefix": "evmos",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-22",
+    "depositService": ""
+  },
+  "fantom": {
+    "id": "fantom",
+    "chainSymbol": "Fantom",
+    "chainName": "Fantom",
+    "gasToken": "ftm",
+    "nativeAsset": [
+      "wftm-wei"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3,
+    "chainIdentifier": {
+      "devnet": "fantom",
+      "testnet": "fantom",
+      "mainnet": "fantom"
+    },
+    "rpc": [
+      "https://rpc.testnet.fantom.network/"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "fetch": {
+    "id": "fetch",
+    "chainSymbol": "Fetch",
+    "chainName": "Fetch",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "fetch",
+      "testnet": "fetch",
+      "mainnet": "fetch"
+    },
+    "rpc": [
+      "https://rpc-dorado.fetch.ai"
+    ],
+    "lcd": [
+      "https://rest-dorado.fetch.ai"
+    ],
+    "grpc": [],
+    "addressPrefix": "fetch",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-6",
+    "depositService": ""
+  },
+  "filecoin": {
+    "id": "filecoin-2",
+    "chainSymbol": "Filecoin",
+    "chainName": "Filecoin",
+    "gasToken": "fil",
+    "nativeAsset": [],
+    "estimatedWaitTime": 10,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 13,
+    "chainIdentifier": {
+      "devnet": "filecoin-2",
+      "testnet": "filecoin-2",
+      "mainnet": "filecoin-2"
+    },
+    "rpc": [
+      "https://rpc.ankr.com/filecoin_testnet",
+      "https://api.calibration.node.glif.io/rpc/v1",
+      "https://filecoin-calibration.chainstacklabs.com/rpc/v1"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "fraxtal": {
+    "id": "fraxtal",
+    "chainSymbol": "Fraxtal",
+    "chainName": "Fraxtal",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 107,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3200,
+    "chainIdentifier": {
+      "devnet": "fraxtal",
+      "testnet": "fraxtal",
+      "mainnet": "fraxtal"
+    },
+    "rpc": [
+      "https://rpc.testnet.frax.com"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "haqq": {
+    "id": "haqq",
+    "chainSymbol": "Haqq",
+    "chainName": "Haqq",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "haqq",
+      "testnet": "haqq",
+      "mainnet": "haqq"
+    },
+    "rpc": [
+      "https://te2-s1-tm.haqq.sh:443"
+    ],
+    "lcd": [
+      "https://rest.cosmos.testedge2.haqq.network"
+    ],
+    "grpc": [
+      "http://te2-s1-grpc.haqq.sh:1337"
+    ],
+    "addressPrefix": "haqq",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-4",
+    "depositService": ""
+  },
+  "ixo": {
+    "id": "impacthub",
+    "chainSymbol": "IXO",
+    "chainName": "IXO",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "impacthub",
+      "testnet": "impacthub",
+      "mainnet": "impacthub"
+    },
+    "rpc": [
+      "https://testnet.ixo.earth/rpc"
+    ],
+    "lcd": [
+      "https://testnet.ixo.earth/rest"
+    ],
+    "grpc": [
+      "https://testnet-grpc.ixo.earth:443"
+    ],
+    "addressPrefix": "ixo",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-9",
+    "depositService": ""
+  },
+  "immutable": {
+    "id": "immutable",
+    "chainSymbol": "Immutable",
+    "chainName": "Immutable",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 2,
+    "chainIdentifier": {
+      "devnet": "immutable",
+      "testnet": "immutable",
+      "mainnet": "immutable"
+    },
+    "rpc": [
+      "https://rpc.testnet.immutable.com"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "kujira": {
+    "id": "kujira",
+    "chainSymbol": "Kujira",
+    "chainName": "Kujira",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "kujira",
+      "testnet": "kujira",
+      "mainnet": "kujira"
+    },
+    "rpc": [
+      "https://kujira-testnet-rpc.polkachu.com:443",
+      "https://test-rpc-kujira.mintthemoon.xyz:443"
+    ],
+    "lcd": [
+      "https://kujira-testnet-api.polkachu.com:443",
+      "https://test-lcd-kujira.mintthemoon.xyz:443"
+    ],
+    "grpc": [],
+    "addressPrefix": "kujira",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-8",
+    "depositService": ""
+  },
+  "linea": {
+    "id": "linea",
+    "chainSymbol": "Linea",
+    "chainName": "Linea",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 30,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 152,
+    "chainIdentifier": {
+      "devnet": "linea",
+      "testnet": "linea",
+      "mainnet": "linea"
+    },
+    "rpc": [
+      "https://rpc.goerli.linea.build"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "mantle": {
+    "id": "mantle",
+    "chainSymbol": "Mantle",
+    "chainName": "Mantle",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 90,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 2003,
+    "chainIdentifier": {
+      "devnet": "mantle",
+      "testnet": "mantle",
+      "mainnet": "mantle"
+    },
+    "rpc": [
+      "https://rpc.testnet.mantle.xyz"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "moonbeam": {
+    "id": "moonbeam",
+    "chainSymbol": "Moonbeam",
+    "chainName": "Moonbeam",
+    "gasToken": "dev",
+    "nativeAsset": [
+      "wdev-wei"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3,
+    "chainIdentifier": {
+      "devnet": "moonbeam",
+      "testnet": "moonbeam",
+      "mainnet": "moonbeam"
+    },
+    "rpc": [
+      "https://rpc.testnet.moonbeam.network"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "neutron": {
+    "id": "neutron",
+    "chainSymbol": "Neutron",
+    "chainName": "Neutron",
+    "gasToken": "",
+    "nativeAsset": [
+      "untrn"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "neutron",
+      "testnet": "neutron",
+      "mainnet": "neutron"
+    },
+    "rpc": [
+      "https://neutron-testnet-rpc.polkachu.com",
+      "https://rpc-palvus.pion-1.ntrn.tech",
+      "https://cosmo-sand-box.vercel.app/api/rpc"
+    ],
+    "lcd": [
+      "https://neutron-testnet-api.polkachu.com",
+      "https://rest-palvus.pion-1.ntrn.tech",
+      "https://cosmo-sand-box.vercel.app/api/rest",
+      "https://api.baryon.remedy.tm.p2p.org"
+    ],
+    "grpc": [
+      "https://grpc.baryon.remedy.tm.p2p.org",
+      "https://grpc-web.baryon.remedy.tm.p2p.org"
+    ],
+    "addressPrefix": "neutron",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-8",
+    "depositService": ""
+  },
+  "nibiru": {
+    "id": "nibiru",
+    "chainSymbol": "Nibiru",
+    "chainName": "Nibiru",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "nibiru",
+      "testnet": "nibiru",
+      "mainnet": "nibiru"
+    },
+    "rpc": [
+      "https://rpc.testnet-1.nibiru.fi"
+    ],
+    "lcd": [
+      "https://lcd.testnet-1.nibiru.fi"
+    ],
+    "grpc": [],
+    "addressPrefix": "nibi",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-1",
+    "depositService": ""
+  },
+  "odin": {
+    "id": "odin",
+    "chainSymbol": "Odin",
+    "chainName": "Odin",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "odin",
+      "testnet": "odin",
+      "mainnet": "odin"
+    },
+    "rpc": [
+      "https://node.odin-freya-website.odinprotocol.io/a/",
+      "http://34.78.138.110:26657"
+    ],
+    "lcd": [
+      "https://node.odin-freya-website.odinprotocol.io/a/api/",
+      "http://34.78.138.110:1317"
+    ],
+    "grpc": [
+      "http://34.78.138.110:9090"
+    ],
+    "addressPrefix": "odin",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-5",
+    "depositService": ""
+  },
+  "ojo": {
+    "id": "ojo",
+    "chainSymbol": "Ojo",
+    "chainName": "Ojo",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "ojo",
+      "testnet": "ojo",
+      "mainnet": "ojo"
+    },
+    "rpc": [
+      "https://rpc.ditto-val-stage-0.ojo.network/"
+    ],
+    "lcd": [
+      "https://api.ditto-val-stage-0.ojo.network/"
+    ],
+    "grpc": [],
+    "addressPrefix": "ojo",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-1",
+    "depositService": ""
+  },
+  "optimism": {
+    "id": "optimism",
+    "chainSymbol": "Optimism",
+    "chainName": "Optimism",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 30,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 900,
+    "chainIdentifier": {
+      "devnet": "optimism",
+      "testnet": "optimism",
+      "mainnet": "optimism"
+    },
+    "rpc": [
+      "https://goerli.optimism.io"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "osmosis": {
+    "id": "osmosis-7",
+    "chainSymbol": "Osmosis",
+    "chainName": "Osmosis",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "osmosis-7",
+      "testnet": "osmosis-7",
+      "mainnet": "osmosis-7"
+    },
+    "rpc": [
+      "https://rpc.osmotest5.osmosis.zone",
+      "https://osmosis-testnet-rpc.polkachu.com/"
+    ],
+    "lcd": [
+      "https://lcd.osmotest5.osmosis.zone",
+      "https://osmosis-testnet-api.polkachu.com/"
+    ],
+    "grpc": [
+      "https://grpc.osmotest5.osmosis.zone"
+    ],
+    "addressPrefix": "osmo",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-4118",
+    "depositService": ""
+  },
+  "persistence": {
+    "id": "persistence",
+    "chainSymbol": "Persistence",
+    "chainName": "Persistence",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "persistence",
+      "testnet": "persistence",
+      "mainnet": "persistence"
+    },
+    "rpc": [
+      "https://rpc.testnet.persistence.one",
+      "https://persistence-testnet-rpc.allthatnode.com:26657"
+    ],
+    "lcd": [
+      "https://rest.testnet.persistence.one",
+      "https://persistence-testnet-rpc.allthatnode.com:1317"
+    ],
+    "grpc": [],
+    "addressPrefix": "persistence",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-108",
+    "depositService": ""
+  },
+  "polygon": {
+    "id": "polygon",
+    "chainSymbol": "Polygon",
+    "chainName": "Polygon",
+    "gasToken": "matic",
+    "nativeAsset": [
+      "wmatic-wei"
+    ],
+    "estimatedWaitTime": 10,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 135,
+    "chainIdentifier": {
+      "devnet": "polygon",
+      "testnet": "polygon",
+      "mainnet": "polygon"
+    },
+    "rpc": [
+      "https://polygon-testnet.public.blastapi.io"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "polygon zkevm": {
+    "id": "polygon-zkevm",
+    "chainSymbol": "Polygon zkEVM",
+    "chainName": "Polygon zkEVM",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 45,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 502,
+    "chainIdentifier": {
+      "devnet": "polygon-zkevm",
+      "testnet": "polygon-zkevm",
+      "mainnet": "polygon-zkevm"
+    },
+    "rpc": [
+      "https://rpc.public.zkevm-test.net"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "saga": {
+    "id": "saga",
+    "chainSymbol": "Saga",
+    "chainName": "Saga",
+    "gasToken": "",
+    "nativeAsset": [
+      "utsaga"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "saga",
+      "testnet": "saga",
+      "mainnet": "saga"
+    },
+    "rpc": [
+      "http://35.246.188.47",
+      "https://testnet-ssc.sagarpc.io"
+    ],
+    "lcd": [
+      "https://testnet-ssc-lcd.sagarpc.io"
+    ],
+    "grpc": [
+      "https://testnet-ssc-grpc.sagarpc.io"
+    ],
+    "addressPrefix": "saga",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-9",
+    "depositService": ""
+  },
+  "scroll": {
+    "id": "scroll",
+    "chainSymbol": "Scroll",
+    "chainName": "Scroll",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 60,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 503,
+    "chainIdentifier": {
+      "devnet": "scroll",
+      "testnet": "scroll",
+      "mainnet": "scroll"
+    },
+    "rpc": [
+      "https://sepolia-rpc.scroll.io",
+      "https://1rpc.io/scroll/sepolia"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "secret": {
+    "id": "secret",
+    "chainSymbol": "Secret",
+    "chainName": "Secret",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "secret",
+      "testnet": "secret",
+      "mainnet": "secret"
+    },
+    "rpc": [
+      "https://rpc.pulsar3.scrttestnet.com"
+    ],
+    "lcd": [
+      "https://api.pulsar3.scrttestnet.com"
+    ],
+    "grpc": [
+      "http://grpcbin.pulsar3.scrttestnet.com:19099"
+    ],
+    "addressPrefix": "secret",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-3",
+    "depositService": ""
+  },
+  "secret-snip": {
+    "id": "secret-snip-3",
+    "chainSymbol": "Secret-SNIP",
+    "chainName": "Secret-SNIP",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "secret-snip-3",
+      "testnet": "secret-snip-3",
+      "mainnet": "secret-snip-3"
+    },
+    "rpc": [
+      "https://rpc.pulsar3.scrttestnet.com"
+    ],
+    "lcd": [
+      "https://api.pulsar3.scrttestnet.com"
+    ],
+    "grpc": [
+      "http://grpcbin.pulsar3.scrttestnet.com:19099"
+    ],
+    "addressPrefix": "secret",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-1",
+    "depositService": ""
+  },
+  "sei": {
+    "id": "sei-2",
+    "chainSymbol": "Sei",
+    "chainName": "Sei",
+    "gasToken": "",
+    "nativeAsset": [
+      "factory/sei1sqa04xr52cuceldc8htm0d369nz29qkz9ugaft78qv8dzys9jvasmgg8gc/seilor"
+    ],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "sei-2",
+      "testnet": "sei-2",
+      "mainnet": "sei-2"
+    },
+    "rpc": [
+      "https://rpc.atlantic-2.seinetwork.io",
+      "https://sei-testnet-2-rpc.brocha.in"
+    ],
+    "lcd": [
+      "https://rest.atlantic-2.seinetwork.io",
+      "https://sei-testnet-2-rest.brocha.in"
+    ],
+    "grpc": [],
+    "addressPrefix": "sei",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-44",
+    "depositService": ""
+  },
+  "sommelier": {
+    "id": "sommelier",
+    "chainSymbol": "Sommelier",
+    "chainName": "Sommelier",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "sommelier",
+      "testnet": "sommelier",
+      "mainnet": "sommelier"
+    },
+    "rpc": [
+      "https://chardonnay0.somm.fi:26657"
+    ],
+    "lcd": [
+      "https://chardonnay0.somm.fi"
+    ],
+    "grpc": [
+      "https://chardonnay0.somm.fi:9090"
+    ],
+    "addressPrefix": "somm",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-3",
+    "depositService": ""
+  },
+  "teritori": {
+    "id": "teritori-2",
+    "chainSymbol": "Teritori",
+    "chainName": "Teritori",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "teritori-2",
+      "testnet": "teritori-2",
+      "mainnet": "teritori-2"
+    },
+    "rpc": [
+      "https://rpc.testnet.teritori.com"
+    ],
+    "lcd": [
+      "https://rest.testnet.teritori.com"
+    ],
+    "grpc": [
+      "teritori-testnet.grpc.kjnodes.com:11990",
+      "https://grpc-t.teritori.nodestake.top"
+    ],
+    "addressPrefix": "tori",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-0",
+    "depositService": ""
+  },
+  "terra": {
+    "id": "terra-3",
+    "chainSymbol": "Terra",
+    "chainName": "Terra",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "terra-3",
+      "testnet": "terra-3",
+      "mainnet": "terra-3"
+    },
+    "rpc": [
+      "http://18.194.243.144:26657",
+      "https://terra-testnet-rpc.polkachu.com:443"
+    ],
+    "lcd": [
+      "https://pisco-lcd.terra.dev",
+      "https://terra-testnet-api.polkachu.com:443"
+    ],
+    "grpc": [],
+    "addressPrefix": "terra",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-22",
+    "depositService": ""
+  },
+  "xpla": {
+    "id": "xpla",
+    "chainSymbol": "Xpla",
+    "chainName": "Xpla",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "xpla",
+      "testnet": "xpla",
+      "mainnet": "xpla"
+    },
+    "rpc": [
+      "https://cube-rpc.xpla.dev"
+    ],
+    "lcd": [
+      "https://cube-lcd.xpla.dev"
+    ],
+    "grpc": [],
+    "addressPrefix": "xpla",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-0",
+    "depositService": ""
+  },
+  "arbitrum": {
+    "id": "arbitrum",
+    "chainSymbol": "arbitrum",
+    "chainName": "arbitrum",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 25,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 500,
+    "chainIdentifier": {
+      "devnet": "arbitrum",
+      "testnet": "arbitrum",
+      "mainnet": "arbitrum"
+    },
+    "rpc": [
+      "https://goerli-rollup.arbitrum.io/rpc"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "celo": {
+    "id": "celo",
+    "chainSymbol": "celo",
+    "chainName": "celo",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3,
+    "chainIdentifier": {
+      "devnet": "celo",
+      "testnet": "celo",
+      "mainnet": "celo"
+    },
+    "rpc": [
+      "https://alfajores-forno.celo-testnet.org"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "fxcore": {
+    "id": "fxcore",
+    "chainSymbol": "fxCore",
+    "chainName": "fxCore",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "fxcore",
+      "testnet": "fxcore",
+      "mainnet": "fxcore"
+    },
+    "rpc": [
+      "https://testnet-fx-json.functionx.io:26657"
+    ],
+    "lcd": [
+      "https://testnet-fx-rest.functionx.io:1317"
+    ],
+    "grpc": [
+      "https://testnet-fx-grpc.functionx.io:9090"
+    ],
+    "addressPrefix": "fx",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-127",
+    "depositService": ""
+  },
+  "kava": {
+    "id": "kava",
+    "chainSymbol": "kava",
+    "chainName": "kava",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "evm",
+    "confirmLevel": 3,
+    "chainIdentifier": {
+      "devnet": "kava",
+      "testnet": "kava",
+      "mainnet": "kava"
+    },
+    "rpc": [
+      "https://evm.testnet.kava.io"
+    ],
+    "lcd": [],
+    "grpc": [],
+    "addressPrefix": "",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x98b2920d53612483f91f12ed7754e51b4a77919e",
+    "channelIdToAxelar": null,
+    "depositService": "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+  },
+  "provenance": {
+    "id": "provenance",
+    "chainSymbol": "provenance",
+    "chainName": "provenance",
+    "gasToken": "",
+    "nativeAsset": [],
+    "estimatedWaitTime": 1,
+    "fullySupported": true,
+    "assets": [],
+    "module": "axelarnet",
+    "confirmLevel": 1,
+    "chainIdentifier": {
+      "devnet": "provenance",
+      "testnet": "provenance",
+      "mainnet": "provenance"
+    },
+    "rpc": [
+      "https://rpc.test.provenance.io:443"
+    ],
+    "lcd": [
+      "https://api.test.provenance.io/"
+    ],
+    "grpc": [],
+    "addressPrefix": "tp",
+    "gasService": "",
+    "constAddressDeployer": "",
+    "channelIdToAxelar": "channel-75",
+    "depositService": ""
+  }
+}
